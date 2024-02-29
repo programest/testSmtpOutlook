@@ -41,7 +41,7 @@ if (!error_get_last()) {
     $mail->setFrom('adilmiermanov18@gmail.com', 'Адиль'); // Адрес самой почты и имя отправителя
     
     // Получатель письма
-    $mail->addAddress('Gureyev.D@skazka.kz'); // Ещё один, если нужен
+    $mail->addAddress('adil_miermanov@mail.ru'); // Ещё один, если нужен
 
     
     // Прикрипление файлов к письму
