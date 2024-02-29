@@ -33,11 +33,11 @@ if (!error_get_last()) {
     $mail->Debugoutput = function($str, $level) {$GLOBALS['data']['debug'][] = $str;};
     
     // Настройки вашей почты
-    $mail->Host       = 'smtp.office365.com'; // SMTP сервера вашей почты
+    $mail->Host       = 'smtp.gmail.com'; // SMTP сервера вашей почты
     $mail->Username   = 'adilmiermanov18'; // Логин на почте
     $mail->Password   = 'mjdkcjkccbrrcley'; // Пароль на почте
-    $mail->SMTPSecure = 'STARTTLS'; //ssl
-    $mail->Port       = 587; //465
+    $mail->SMTPSecure = 'ssl'; //ssl
+    $mail->Port       = 465; //465
     $mail->setFrom('adilmiermanov18@gmail.com', 'Адиль'); // Адрес самой почты и имя отправителя
     
     // Получатель письма
